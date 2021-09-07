@@ -203,31 +203,80 @@
         left:68%;
         top: -10px;
     }
+
+
     45% {
        top: 69%;
     left: 80%;
     }
-    75% {
-        top: 90%;
-        left: 80%;
+
+    60%{
+            top: 55px;
+    left: 40%;
     }
-80%{top: 99%;
-    left: 35%;}
-    
-    85%{
-       top: 90%;
-        left: 10%; 
-    }
-    90% {
-        top: 40%;
-        left: -2%;
-    }
-    100% {
+
+75%{
+    top: 54px;
+    left: 0%;
+}
+
+80%{
+    top: 25px;
+    left: -5%;
+}
+
+90%{
+        top: -3px;
+    left: -2%;
+}
+
+ 100% {
         left: 10%;
         top: -10px;
     }
+} 
+
+
+@keyframes whiteMovingCB  {
+   0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    30% {
+    bottom: -10px;
+    right: 71%;
+    }
+
+
+    45% {
+    bottom: 64px;
+    right: 71%;
+    }
+
+ 60%{
+         bottom: 48px;
+    right: 43%;
+    }
+
+  75%{
+ bottom: 51px;
+    right: -1%;
+    }
+
+
+
+  
+90%{
+    bottom: -12px;
+    right: -1%;
 }
 
+
+ 100% {
+       bottom: -10px;
+        right: 20%;
+    }
+} 
 
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
